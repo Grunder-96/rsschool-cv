@@ -6,7 +6,7 @@ body {
     font-family: 'Cinzel', serif;
 }
 .container {
-    width: 50%;
+    width: 900px;
     margin: 0 auto;
 }
 .header {
@@ -14,7 +14,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 20px 20px 0 0;
 }
 .flex-text {
     display: flex;
@@ -35,4 +35,42 @@ body {
     line-height: 130%;
     text-align: center;
     color: #575753f6;
+}
+.main {
+    background-color: rgb(99, 167, 231);
+    padding-bottom: 20px;
+}
+.main-container {
+    background-color: white;
+    border-radius: 20px;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+section {
+    margin-bottom: 10px;
+}
+.category {
+    
+}
+.title {
+    display: flex;
+    align-items: center;
+}
+.name-category {
+    margin: 0 0 5px 20px;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+.line {
+ width: 100%;
+ padding-right: 25px;
+}
+.category-description {
+    margin: 0 0 0 120px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
 }
