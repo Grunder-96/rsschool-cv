@@ -101,4 +101,9 @@ pre {
     border-radius: 0 0 20px 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.year {
+    font-weight: 700;
+    font-size: 24px;
 }
