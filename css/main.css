@@ -15,7 +15,7 @@ body {
     align-items: center;
     justify-content: space-around;
     border-radius: 20px 20px 0 0;
-    box-shadow: 0 0 5px 2px black;
+    box-shadow: 0 0 15px 1px black;
     margin-top : 5px;
 }
 .flex-text {
@@ -40,16 +40,17 @@ body {
 }
 .main {
     background-color: rgb(99, 167, 231);
-    padding: 20px 20px;
-    box-shadow: 0 0 5px 2px black;
+    padding: 15px 0;
+    box-shadow: 0 0 15px 1px black;
 }
 .main-container {
     background-color: white;
     border-radius: 20px;
     width: 800px;
     margin: 0 auto;
+    padding: 20px 0;
     text-align: center;
-    box-shadow: 0 0 5px 2px black;
+    box-shadow: 0 0 15px 1px black;
 
 }
 section {
@@ -66,15 +67,15 @@ section {
     margin: 0 0 5px 20px;
     font-weight: 500;
     font-size: 24px;
-    text-align: center;
+    text-align: left;
 }
 .line {
- width: 100%;
- padding-right: 25px;
- padding-left: 10px;
+    width: 100%;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 .category-description {
-    margin: 0 0 0 120px;
+    margin: 0 0 0 160px;
     font-weight: 500;
     font-size: 18px;
     text-align: left;
@@ -85,25 +86,25 @@ li {
     font-weight: 500;
     font-size: 18px;
     text-align: left;
-    margin-left: 120px;
 }
 ul {
     padding: 0;
 }
 pre {
     text-align: left;
-    margin: 0 0 0 120px;
+    margin-left: 160px;
 }
 .footer {
     background-color: rgb(99, 167, 231);
     padding: 20px 200px;
-    box-shadow: 0 0 5px 2px black;
+    box-shadow: 0 0 15px 1px black;
     border-radius: 0 0 20px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .year {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 24px;
+    color: #575753f6;
 }
